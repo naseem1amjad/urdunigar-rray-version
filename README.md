@@ -15,7 +15,10 @@ Urdu Nigar Rray version is the latest version launched in year 2019 with enhance
 - Easy selection of Urdu Unicode fonts (both Nastalique and Naskh)
 - Utility to export Inpage Text To Unicode
 - Support of Erab (including Hamza)
+
+### DayNaheeRRay
 A standard is devised by developer of Urdu Nigar for conversion from Urdu Script to English/Roman Urdu and strongly support to use ‘Rray’ instead of ‘Day’ hence a movement launched with the name of #DayNaheeRRay
+For more details, kindly visit http://www.ajsoftpk.com/urdunigarunicode/help-on-urdu-nigar-rray-version/Roman-Urdu-Standard.htm
 
 ### Download
 The Exe (setup) can be downloaded from https://www.ajsoftpk.com/naseem_amjad/urdu/
