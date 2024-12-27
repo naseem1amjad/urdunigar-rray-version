@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\NSM\Urdu\Urdu Nigar Unicode 3.0\Reference\Setup4UrduNigarUnicode\UrduNigarUnicode.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{09269CD9-08B2-46BD-891A-17C6DD6A5D87}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>UrduNigarUnicode3.0</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Urdu Nigar Unicode</ProductName>
+    <PublisherName>Naseem Amjad</PublisherName>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>3.0.0.1</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F5D04F7888D7FC55F52C6FFAAC2E5D283C521877</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>UrduNigarUnicode_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Interop.Shell32">
+      <HintPath>lib\Interop.Shell32.dll</HintPath>
+    </Reference>
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Supported_Language.cs" />
+    <Compile Include="Ascii_Key.cs" />
+    <Compile Include="Keyboard_Key.cs" />
+    <Compile Include="CustomListType.cs" />
+    <Compile Include="Unicode_Alphabet.cs" />
+    <Compile Include="Urdu_Nigar_Unicode\frmFont.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urdu_Nigar_Unicode\frmFont.Designer.cs">
+      <DependentUpon>frmFont.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Urdu_Nigar_Unicode\frmReplace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urdu_Nigar_Unicode\frmOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urdu_Nigar_Unicode\frmFind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urdu_Nigar_Unicode\frmProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urdu_Nigar_Unicode\frmGoTo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urdu_Nigar_Unicode\frmSplash2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urdu_Nigar_Unicode\frmUrduCharacterList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urdu_Nigar_Unicode\LoadXML.cs" />
+    <Compile Include="Urdu_Nigar_Unicode\frmWordCount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urdu_Nigar_Unicode\frmUrduPhoneticLayout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urdu_Nigar_Unicode\frmArguments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urdu_Nigar_Unicode\frmAddExternalTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urdu_Nigar_Unicode\clsInformation.cs" />
+    <Compile Include="Urdu_Nigar_Unicode\Program.cs" />
+    <Compile Include="Urdu_Nigar_Unicode\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urdu_Nigar_Unicode\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urdu_Nigar_Unicode\BorderlessDisabledToolStripItemRenderer.cs" />
+    <Compile Include="Urdu_Nigar_Unicode\Properties\Resources.cs" />
+    <Compile Include="Urdu_Nigar_Unicode\Properties\Settings.cs" />
+    <Compile Include="DetailFileInfo\CFileInfo.cs" />
+    <Compile Include="DetailFileInfo\DetailedFileInfo.cs" />
+    <Compile Include="Utils\Uri\Psp\Program3\IniFileManager.cs" />
+    <Compile Include="Utils\Uri\Psp\Program3\DirectIniFile.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Urdu_Nigar_Unicode\Form1.resx" />
+    <EmbeddedResource Include="Urdu_Nigar_Unicode\frmAbout.resx" />
+    <EmbeddedResource Include="Urdu_Nigar_Unicode\frmAddExternalTool.resx" />
+    <EmbeddedResource Include="Urdu_Nigar_Unicode\frmArguments.resx" />
+    <EmbeddedResource Include="Urdu_Nigar_Unicode\frmFind.resx" />
+    <EmbeddedResource Include="Urdu_Nigar_Unicode\frmFont.resx">
+      <DependentUpon>frmFont.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Urdu_Nigar_Unicode\frmGoTo.resx" />
+    <EmbeddedResource Include="Urdu_Nigar_Unicode\frmOptions.resx" />
+    <EmbeddedResource Include="Urdu_Nigar_Unicode\frmProperties.resx" />
+    <EmbeddedResource Include="Urdu_Nigar_Unicode\frmReplace.resx" />
+    <EmbeddedResource Include="Urdu_Nigar_Unicode\frmSplash2.resx" />
+    <EmbeddedResource Include="Urdu_Nigar_Unicode\frmUrduCharacterList.resx" />
+    <EmbeddedResource Include="Urdu_Nigar_Unicode\frmUrduPhoneticLayout.resx" />
+    <EmbeddedResource Include="Urdu_Nigar_Unicode\frmWordCount.resx" />
+    <EmbeddedResource Include="Urdu_Nigar_Unicode\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="UrduNigarUnicode_TemporaryKey.pfx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,45 @@
+30 5 2016
+--------------
+= Exporting successfully to Urdu Nigar Classic
+Laam Alif not joined
+Export to UNC fails sometime
++++++++++++++++
+17 8 2017
+----------------
+Added support for Urdu Fonts DropDown
+Bug fix of Recent Loaded Files
+------- 2018 01 17 -----------
+Added Reverse Text and Transliteration Support
+
+========================
+Added comments for frm being loaded before decleration
+Removed File IO attributes and return false for all.
+Added System.xml 2.0 (for dictionary)
+
+Do we need to read unicode and convert to phonetic text ? This phonetic text could be converted to UNC and Roman Urdu ?
+===================
+
+Recent Files BUG ?
+Association of extension?
+Check_Install_Font?
+Search and Replace option ?
+
+- Export to Urdu Nigar Classic
+- Font List combo for Urdu OTF fonts
+- Inpage to Unicode / Unicode to Inpage ?
+- Dont show English letters while typing in Urdu, beep on wrong keys.
+- Popup keyboard for typing ?
+- Undo/Redo ?
+- Show Cut/Copy notification if successfull ?
+
+
+BUGS:
+---------
+DoChashmee Hay InBetween not working
+Ttay initial not working
+Hamza not working
+Brackets not working properly
+
+Support of Erabs
+Font Selection Option
+Ability to write english numbers in between ?
