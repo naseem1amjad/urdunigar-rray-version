@@ -1,4 +1,6 @@
-# UrduNigar-RRay-version
+# Note: New version of UrduNigar can be found at https://www.naseemamjad.com/urdunigar/ having AI features
+
+## UrduNigar-RRay-version
 
 ## Source code of Urdu Nigar released by Naseem Amjad
 The application was developed in WinForms using Visual Studio 2015. The installer was created with Advanced Installer; however, NSIS is also a viable alternative for future use.
